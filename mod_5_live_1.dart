@@ -20,11 +20,11 @@ class Song extends Media {
 // Main function to create instances and call play() methods
 void main() {
   // Create an instance of Media
-  Media mediaInstance = Media();
+  Media videoMedia = Media();
   // Create an instance of Song with an artist
-  Song songInstance = Song("Brian Adams");
+  Song myFavoriteSong = Song("Brian Adams");
   
   // Call the play() method on both instances
-  mediaInstance.play();
-  songInstance.play();
+  videoMedia.play();
+  myFavoriteSong.play();
 }
